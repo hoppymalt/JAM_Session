@@ -11,7 +11,7 @@ Purple='\033[0;35m'       # Purple
 Cyan='\033[0;36m'         # Cyan
 White='\033[0;37m'        # White
 
-echo -e "${Red}\n--- Mobile Tools ---\n${NC}"
+echo -e "${Red}\n--- Essentials Tools and Requirements ---\n${NC}"
 echo -e "${Yellow}You have 3 seconds to proceed ... ${NC}"
 echo -e "${Yellow}or ${NC}"
 echo -e "${Yellow}hit Ctrl+C to quit ${NC}"
@@ -25,26 +25,15 @@ test $? -eq 0 || exit 1 "you should have sudo priveledge to run this script"
 
 # End Initial Checks and set-up
 
+# Python
+echo -e "${Green}\n--- Installing: Python ---\n${NC}"
+apt-get install python3-pip
+apt-get install python3-venv
+apt-get install python-pip
 
-### MobSF
-echo -e "${green}\n--- Installing: MobSF ---\n${NC}"
-git clone https://github.com/MobSF/Mobile-Security-Framework-MobSF.git
-cd Mobile-Security-Framework-MobSF/
-pip3 install virtualenv
-virtualenv -p python3 venv
-source venv/bin/activate
-pip3 install -r requirements.txt
-echo "Change python3 and pip3 in setup script (in Mobile-Security-Framework-MobSF)"
-read -rsp $'Press any key to continue...\n' -n1 key
-echo "./setup.sh"
-
-
-### apkx
-echo -e "${green}\n--- Installing: apkx ---\n${NC}"
-git clone https://github.com/b-mueller/apkx
-cd apkx
-./install.sh
-cd ..
+# Filezilla
+echo -e "${Green}\n--- Installing: Filezilla ---\n${NC}"
+apt-get install filezilla
 
 
 

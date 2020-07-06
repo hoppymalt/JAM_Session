@@ -1,7 +1,7 @@
 ---
 layout: default
 title: AD Tools
-parent: Attacks
+parent: Tools
 nav_order: 2
 ---
 

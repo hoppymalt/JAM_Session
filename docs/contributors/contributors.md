@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Contributors
-nav_order: 5
+nav_order: 7
 has_children: False
 permalink: /docs/contributors
 ---

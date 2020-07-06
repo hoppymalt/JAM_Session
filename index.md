@@ -1,18 +1,19 @@
-<p align="right">
-    <a href="https://badge.fury.io/rb/just-the-docs"><img src="https://badge.fury.io/rb/just-the-docs.svg" alt="Gem version"></a> <a href="https://github.com/pmarsceill/just-the-docs/actions?query=workflow%3A%22Master+branch+CI%22"><img src="https://github.com/pmarsceill/just-the-docs/workflows/Master%20branch%20CI/badge.svg" alt="Build status"></a>
-</p>
-<br><br>
-<p align="center">
-    <h1 align="center">JAM Session</h1>
-    <p align="center">A Repository of useful resources to use during a pentest.</p>
-    <p align="center"><strong><a href="https://caiomichele.github.io/JAM_Session">Start using it!</a></strong></p>
-    <br><br><br>
-</p>
+---
+layout: default
+title: Home
+nav_order: 1
+description: "JAM Session is a repository of useful commands and references"
+permalink: /
+last_modified_date: 2020-07-02T15:28:08+0000
+---
 
+# JAM Session
+{: .fs-9 }
 
-## License
+JAM Session is aiming to be a repository of useful references that can be used during a penetration test.
 
-All is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+---
+
 
 ## Disclaimer
 

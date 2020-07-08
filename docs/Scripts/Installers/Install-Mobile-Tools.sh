@@ -53,5 +53,7 @@ cd ..
 ### objection
 
 
+#### Frida
+
 
 echo -e "${Red}\n--- All set. Have fun! --- \n${NC}"

@@ -5,10 +5,10 @@ parent: Tools
 nav_order: 5
 ---
 
-# LAN Tools
+# Mobile Tools
 {: .no_toc }
 
-## Mobile of contents
+## Table of contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -19,9 +19,22 @@ nav_order: 5
 #### [\[Script\] Install all](https://github.com/caioMichele/JAM_Session/tree/master/docs/Scripts/Installers)
 
 ---
+#### MobSF
+
+
+#### Frida
+
+
+#### apkx
+
+
+#### Needle
+
+### objection
+
+
 
 ## Emulators
-
 ### VirtualBox/VMWare Android Instance With Bluetooth
 To create a new VirtualBox/VMWare instance follow these steps:  
 * Download Androidx86 iso from [here](https://www.android-x86.org/)
@@ -34,7 +47,7 @@ need something like VMWare or VirtualBox to run it
   * `netcfg` command to find the `IP`.
 * `adb connect IP`. 
 
-To add Bluetooth 
+To add Bluetooth:
 
 Option 1: 
 * Plug in your USB Bluetooth dongle/Bluetooth device.
@@ -45,3 +58,6 @@ Option 2:
 * Start the virtual machine. 
 * Under Devices -> USB Devices -> you can find your laptop bluetooth listed. 
  
+### Genymotion 
+* [https://www.genymotion.com/](https://www.genymotion.com/)
+* [https://github.com/m9rco/Genymotion_ARM_Translation](https://github.com/m9rco/Genymotion_ARM_Translation)

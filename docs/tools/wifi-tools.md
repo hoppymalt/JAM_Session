@@ -2,7 +2,7 @@
 layout: default
 title: WiFi Tools
 parent: Tools
-nav_order: 5
+nav_order: 4
 ---
 
 # WiFi Tools
@@ -16,13 +16,14 @@ nav_order: 5
 
 ---
 
-#### [\[Script\] Install all](https://github.com/caioMichele/JAM_Session/blob/master/docs/Scripts/Installers/Install-WiFi-Tools.sh)
+#### [\[Script\] Install all](https://github.com/caioMichele/JAM_Session/tree/master/docs/Scripts/Installers)
 
 ---
 
 #### EAPHammer
 ```
 git clone https://github.com/s0lst1c3/eaphammer.git
+cd eaphammer/
 ./kali-setup
 ```
 

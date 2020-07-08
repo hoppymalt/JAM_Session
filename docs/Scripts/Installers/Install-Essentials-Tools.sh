@@ -25,15 +25,24 @@ test $? -eq 0 || exit 1 "you should have sudo priveledge to run this script"
 
 # End Initial Checks and set-up
 
+
 # Python
 echo -e "${Green}\n--- Installing: Python ---\n${NC}"
 apt-get install python3-pip
 apt-get install python3-venv
 apt-get install python-pip
 
+
 # Filezilla
 echo -e "${Green}\n--- Installing: Filezilla ---\n${NC}"
 apt-get install filezilla
+
+
+# BooFuzz
+
+
+
+# cave_miner-master
 
 
 

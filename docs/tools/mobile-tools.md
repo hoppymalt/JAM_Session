@@ -1,14 +1,14 @@
 ---
 layout: default
-title: LAN Tools
+title: Mobile Tools
 parent: Tools
-nav_order: 1
+nav_order: 5
 ---
 
 # LAN Tools
 {: .no_toc }
 
-## Table of contents
+## Mobile of contents
 {: .no_toc .text-delta }
 
 1. TOC

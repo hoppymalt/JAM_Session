@@ -27,10 +27,22 @@ test $? -eq 0 || exit 1 "you should have sudo priveledge to run this script"
 
 
 # Alfa Card Firmware
-echo -e "${Green}\n--- Installing: apkx ---\n${NC}"
+echo -e "${Green}\n--- Installing: Alfa Card Firmware ---\n${NC}"
 apt-get install firmware-ralink
 echo "Remember to setup USB 3.0 (xHCI) Controller under USB settings on virtual box for a quick use"
 
+
+# Eaphammer
+echo -e "${Green}\n--- Installing: Eaphammer ---\n${NC}"
+git clone https://github.com/s0lst1c3/eaphammer.git
+cd eaphammer/
+./kali-setup
+cd ..
+
+
+# Airgeddon
+echo -e "${Green}\n--- Installing: Airgeddon ---\n${NC}"
+git clone --depth 1 https://github.com/v1s1t0r1sh3r3/airgeddon.git
 
 
 

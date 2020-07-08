@@ -16,7 +16,7 @@ nav_order: 2
 
 ---
 
-#### [\[Script\] Install all](https://github.com/caioMichele/JAM_Session/blob/master/docs/Scripts/Installers/Install-Internal-Tools.sh)
+#### [\[Script\] Install all](https://github.com/caioMichele/JAM_Session/tree/master/docs/Scripts/Installers)
 
 ---
 

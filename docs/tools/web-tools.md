@@ -16,7 +16,7 @@ nav_order: 3
 
 ---
 
-#### [\[Script\] Install all]()
+#### [\[Script\] Install all](https://github.com/caioMichele/JAM_Session/tree/master/docs/Scripts/Installers)
 
 ---
 

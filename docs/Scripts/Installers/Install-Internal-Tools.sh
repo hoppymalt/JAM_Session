@@ -58,8 +58,8 @@ sudo sysctl -w net.ipv6.conf.all.disable_ipv6=1
 gem install evil-winrm
 
 
-# Add bettercap
-echo -e "${Green}\n--- Installing: bettercap ---\n${NC}"
+# Add Bettercap
+echo -e "${Green}\n--- Installing: Bettercap ---\n${NC}"
 apt install bettercap
 
 

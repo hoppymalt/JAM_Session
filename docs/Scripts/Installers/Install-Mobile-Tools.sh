@@ -34,9 +34,9 @@ pip3 install virtualenv
 virtualenv -p python3 venv
 source venv/bin/activate
 pip3 install -r requirements.txt
-echo "Change python3 and pip3 in setup script (in Mobile-Security-Framework-MobSF)"
+echo -e "${Cyan}Change python3 and pip3 in setup script (in Mobile-Security-Framework-MobSF)${NC}"
 read -rsp $'Press any key to continue...\n' -n1 key
-echo "./setup.sh"
+./setup.sh
 
 
 ### apkx
@@ -45,6 +45,12 @@ git clone https://github.com/b-mueller/apkx
 cd apkx
 ./install.sh
 cd ..
+
+
+### Needle
+
+
+### objection
 
 
 

@@ -25,13 +25,14 @@ nav_order: 5
 ### VirtualBox/VMWare Android Instance With Bluetooth
 To create a new VirtualBox/VMWare instance follow these steps:  
 * Download Androidx86 iso from [here](https://www.android-x86.org/)
-need something like VMWare or VirtualBox to run it When creating the virtual machine, you need to set the type of guest OS as Linux instead of Other.
+need something like VMWare or VirtualBox to run it 
+* Create the virtual machine (you need to set the type of guest OS as Linux instead of Other).
 * After creating the virtual machine set the network adapter to 'Bridged'. 
 * Start the VM and select 'Live CD VESA' at boot.
 * Find out the IP of the VM:
   * Go to terminal in VM (use Alt+F1 & Alt+F7 to toggle) 
-  * `netcfg` command to find the IP.
-* `adb connect IP_ADDRESS`. 
+  * `netcfg` command to find the `IP`.
+* `adb connect IP`. 
 
 To add Bluetooth 
 

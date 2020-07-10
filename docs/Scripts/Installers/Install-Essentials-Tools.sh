@@ -27,10 +27,15 @@ test $? -eq 0 || exit 1 "you should have sudo priveledge to run this script"
 
 
 # Python
-echo -e "${Green}\n--- Installing: Python ---\n${NC}"
+echo -e "${Green}\n--- Installing: Python tools---\n${NC}"
 apt-get install python3-pip
+# curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+# python get-pip.py
+
 apt-get install python3-venv
-apt-get install python-pip
+
+
+
 
 
 # Filezilla

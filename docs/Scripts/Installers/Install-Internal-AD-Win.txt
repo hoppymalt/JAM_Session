@@ -1,0 +1,7 @@
+###################### WINDOWS ######################
+# Add Rubeus
+git clone https://github.com/Zer1t0/Rubeus
+
+
+# Add psexec
+https://docs.microsoft.com/en-us/sysinternals/downloads/psexec
